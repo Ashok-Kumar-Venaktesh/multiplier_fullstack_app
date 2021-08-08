@@ -1,0 +1,18 @@
+.float-left {
+  float: left;
+}
+
+.red {
+  font-weight: bold;
+  color: red;
+}
+
+.wrapper {
+  font-family: arial, sans-serif;
+  border: 1px solid #000;
+  padding: 2%;
+}
+
+.text-center {
+  text-align: center;
+}

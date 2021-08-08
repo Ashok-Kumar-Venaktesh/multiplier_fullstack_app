@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <h1 class="text-center">Multiplier</h1>
+    <label for="num1">First Value:    </label>
+    <input type='number' ng-model='num1' name="num1" ng-change="num1Change()">
+    <span ng-if="num1Invalid" class="red">Invalid Number</span>
+    <br><br>
+    <label for="num2">Second Value: </label>
+    <input type='number' ng-model='num2' name="num2" ng-change="num2Change()">
+    <span ng-if="num2Invalid" class="red">Invalid Number</span>
+    <br><br>
+    <button class="float-left" ng-click="onResultsClick()" ng-disabled="resultInvalid">Result</button>
+    <div class="float-left">&nbsp; {{result}}</div>
+</div>
